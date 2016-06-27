@@ -46,7 +46,7 @@ let p = new PromiseHelper();
 // - this.currPromise = "My Love"
 //#########################
 // p.promiseMe('My Love')
-//   .then((msg) =>{
+//   .then((msg) => {
 //     console.log(msg);
 //     p.log('currPromise');
 //   });
@@ -87,7 +87,7 @@ let p = new PromiseHelper();
 //      //Node 4 doesn't support destructuring--declarations
 //      //let [ item1, item2 ] = results;
 
-//      results.forEach((item, el) =>{
+//      results.forEach((item, el) => {
 //       console.log(`results[${el}]="${item}"`)
 //      })
 //   }
@@ -103,7 +103,7 @@ let p = new PromiseHelper();
 //   p.promiseMe(),
 //   p.promiseMe('HAPPINESS')
 //   ])
-//   .then((results) =>{
+//   .then((results) => {
 //     console.log('Should never get here')
 //   }, (err) => {
 //     console.log(`Error: ${err}`)
@@ -122,7 +122,7 @@ let p = new PromiseHelper();
 //   p.delayTest(3000)
 //   ])
 //   .then((results) => {
-//     results.forEach((item, el) =>{
+//     results.forEach((item, el) => {
 //       console.log(`results[${el}]="${item}"`)
 //     });
 //   });
@@ -138,7 +138,7 @@ let p = new PromiseHelper();
 //   p.delayTest(5000)
 //   ])
 //   .then((results) => {
-//     results.forEach((item, el) =>{
+//     results.forEach((item, el) => {
 //       console.log(`results[${el}]="${item}"`)
 //     });
 //   });
